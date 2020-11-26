@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Profile card component Project</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  body {
+    background-color: #18a0ac;
+    background-image: url('../img/bg-pattern-top.svg') , url('../img/bg-pattern-bottom.svg') ;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: white;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.img {
+  border-radius: 50%;
+  border-color: white;
+  border: 6px solid #fff;
+}
+.profile {
+  text-align: center;
+  color: #005A9C;
+  font-size: 18px;
+}
+.statistics {
+  color: #005A9C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.attribution {
+    font-size: 12px;
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    align-content: center;
+    justify-content: center;         /* Footer height */
+  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+  </style>
+</head>
+<body>
+<svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25"/></svg>
+
+<div class="card">
+  <svg width="350" height="140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="c"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%" />
+  <div class="profile">
+      <img src="https://github.com/azurasan/Frontend-Mentor-Challenge-Profile-card-component-main/blob/main/images/image-victor.jpg?raw=true" alt="Victor Crest" width=100px />
+      <div class="name"><b>Victor Crest</b></div>
+      <div class="age">26</div>
+      <div class="city">London</div>
+    </div>
+  <div class="statistics">
+      <div class="followers"><b>80K</b> Followers</div>
+      <div class="likes"><b>803K</b> Likes</div>
+      <div class="photos"><b>1.4K</b> Photos</div>
+  </div>
+</div><br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="jboundless.github.io">Jordan Pagkalinawan</a>
+  </div>
+</body>
